@@ -13,7 +13,8 @@
     ],
     "additionalProbingPaths": [
       "C:\\Users\\Thomas7\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Thomas7\\.nuget\\packages"
+      "C:\\Users\\Thomas7\\.nuget\\packages",
+      "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "startSample", "startSample\startSample.csproj", "{4E7D3097-BD83-4E92-BA43-0F51063BF273}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "startSample", "startSample\startSample.csproj", "{4E7D3097-BD83-4E92-BA43-0F51063BF273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonTest", "JsonTest\JsonTest.csproj", "{814641E0-F86C-48AB-8128-EE665C1B500C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{57E2C307-B4E2-46B3-B3B1-BFBB994655D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDU.Data", "EDU.Data\EDU.Data.csproj", "{95485654-AF60-4530-9BAC-A4DF8FB117B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,20 @@ Global
 		{4E7D3097-BD83-4E92-BA43-0F51063BF273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E7D3097-BD83-4E92-BA43-0F51063BF273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E7D3097-BD83-4E92-BA43-0F51063BF273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814641E0-F86C-48AB-8128-EE665C1B500C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814641E0-F86C-48AB-8128-EE665C1B500C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814641E0-F86C-48AB-8128-EE665C1B500C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814641E0-F86C-48AB-8128-EE665C1B500C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95485654-AF60-4530-9BAC-A4DF8FB117B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95485654-AF60-4530-9BAC-A4DF8FB117B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95485654-AF60-4530-9BAC-A4DF8FB117B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95485654-AF60-4530-9BAC-A4DF8FB117B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95485654-AF60-4530-9BAC-A4DF8FB117B0} = {57E2C307-B4E2-46B3-B3B1-BFBB994655D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDF3EF30-4B7A-44F1-9FA0-2CC8E41C04DE}
